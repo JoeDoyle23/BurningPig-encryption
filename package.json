@@ -1,0 +1,9 @@
+{ 
+	"name" : "burningpig-encryption",
+	"description" : "A pure javascript module for the RSA functionality for BurningPig & Minecraft encryption",
+	"engines": { "node" : ">=0.10.0" },
+    "version": "0.1.0",
+	"keywords": ["burningpig", "minecraft", "rsa"],
+	"author": "Joe Doyle <joe@joedoyle.us>",
+    "repository" : { "type": "git", "url": "https://github.com/JoeDoyle23/BurningPig-encryption.git"}
+}
