@@ -3,20 +3,20 @@ BurningPig-encryption
 
 A pure javascript module for the RSA functionality for [BurningPig](https://github.com/JoeDoyle23/BurningPig) &amp; Minecraft encryption
 
-####What does it do?
+#### What does it do?
 This module can generate an RSA public/private key pair in pure JavaScript. It can also generate the ASN.1 for the key.
 
-####Is it cryptographically safe?
+#### Is it cryptographically safe?
 I have no idea. I only use it for implimenting the encryption for the Minecraft protcol. I don't use it for any important encryption scenarios.
 
-####What is it based on?
+#### What is it based on?
 This module is adapated for Node.js from the following libraries:
 
  * [rsasign.js](https://github.com/kjur/jsrsasign) library written by Kenji Urushima 
  * [Javascript BigNumber & RSA library](http://www-cs-students.stanford.edu/~tjw/jsbn/) written by Tom Wu 
  * [node-bignumber](https://github.com/eschnou/node-bignumber) written by Laurent Eschenauer
 
-####Example:
+#### Example:
 You can run this example by running `node example` 
  
     var rsa = require("./src/rsa.js");
@@ -52,7 +52,7 @@ You can run this example by running `node example`
     
     console.log("Verfied: " + verified);
 
-####License
+#### License
 BurningPig-encryption & the base libraries are MIT licensed.
 
 See the LICENSE file for the list of specific licenses for each library
